@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-nimbl3",
+  "name": "@nimbl3/eslint-config-nimbl3",
   "version": "1.0.0",
   "description": "Eslint Config developed and maintained by Nimble Thailand.",
   "keywords": [
@@ -14,5 +14,17 @@
     "eslint": "4.9.0",
     "eslint-plugin-react": "7.4.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nimbl3/eslint-config-nimbl3.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nimbl3/eslint-config-nimbl3/issues"
+  },
+  "homepage": "https://github.com/nimbl3/eslint-config-nimbl3#readme"
 }
