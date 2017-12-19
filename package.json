@@ -1,6 +1,6 @@
 {
   "name": "@nimbl3/eslint-config-nimbl3",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Eslint Config developed and maintained by Nimble Thailand.",
   "keywords": [
     "eslint",
