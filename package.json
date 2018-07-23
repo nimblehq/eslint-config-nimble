@@ -5,10 +5,9 @@
   "keywords": [
     "eslint",
     "eslint-plugin",
-    "eslintplugin",
-    "react"
+    "eslintplugin"
   ],
-  "author": "Abhinav Mishra",
+  "author": "Nimbl3",
   "main": "lib/index.js",
   "dependencies": {
     "eslint": "5.2.0"
