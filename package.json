@@ -1,18 +1,16 @@
 {
   "name": "@nimbl3/eslint-config-nimbl3",
-  "version": "2.0.1",
-  "description": "Eslint Config developed and maintained by Nimble Thailand.",
+  "version": "2.1.0",
+  "description": "Eslint Config developed and maintained by Nimbl3",
   "keywords": [
     "eslint",
     "eslint-plugin",
-    "eslintplugin",
-    "react"
+    "eslintplugin"
   ],
-  "author": "Abhinav Mishra",
+  "author": "Nimbl3",
   "main": "lib/index.js",
   "dependencies": {
-    "eslint": "4.9.0",
-    "eslint-plugin-react": "7.4.0"
+    "eslint": "5.2.0"
   },
   "license": "MIT",
   "directories": {
