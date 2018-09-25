@@ -1,6 +1,6 @@
 {
   "name": "@nimbl3/eslint-config-nimbl3",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Eslint Config developed and maintained by Nimbl3",
   "keywords": [
     "eslint",
@@ -10,7 +10,7 @@
   "author": "Nimbl3",
   "main": "lib/index.js",
   "dependencies": {
-    "eslint": "5.2.0"
+    "eslint": "5.6.0"
   },
   "license": "MIT",
   "directories": {
