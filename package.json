@@ -1,6 +1,6 @@
 {
   "name": "@nimbl3/eslint-config-nimbl3",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Eslint Config developed and maintained by Nimbl3",
   "keywords": [
     "eslint",
