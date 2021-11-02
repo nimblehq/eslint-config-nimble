@@ -27,14 +27,14 @@ Add `@nimblehq/eslint-config-nimble` to the extends section of your `.eslintrc` 
 
 ### With a framework
 
-Similar process above but usually it requires to add the extra rules for the JS framework:
+Similar to the process above, but usually it requires adding the extra rules for the JS framework:
 
 
 ```js
 {
   "extends": [
       "@nimblehq/eslint-config-nimble",
-      "plugin:react/recommended", 
+      "plugin:react/recommended",
       "plugin:vue/recommended"
   ],
   "rules": {
@@ -43,11 +43,11 @@ Similar process above but usually it requires to add the extra rules for the JS 
 }
 ```
 
-Obviously, this would require to define the required dependencies in the project itself. 
+This would require defining the required dependencies in the project itself.
 
 ## License
 
-This project is Copyright (c) 2014-2020 nimble Ltd. It is free software,
+This project is Copyright (c) 2014-2021 nimble Ltd. It is free software,
 and may be redistributed under the terms specified in the [LICENSE] file.
 
 [LICENSE]: /LICENSE
