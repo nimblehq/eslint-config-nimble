@@ -1,6 +1,6 @@
 {
   "name": "@nimblehq/eslint-config-nimble",
-  "version": "2.2.2-alpha.0",
+  "version": "2.2.1",
   "description": "ESLint base configuration developed and maintained by Nimble",
   "keywords": [
     "eslint",
@@ -16,6 +16,7 @@
   "directories": {
     "lib": "lib"
   },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/nimblehq/eslint-config-nimble.git"
