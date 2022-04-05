@@ -8,8 +8,8 @@ Provide the Pull Request IDs in the section for each type (feature, chore, and b
 
 ## Chores
 
-- Same structure as in ## Feature
+- Same structure as in ## Features
 
 ## Bugs
 
-- Same structure as in ## Feature
+- Same structure as in ## Features
