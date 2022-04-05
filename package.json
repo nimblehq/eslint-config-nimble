@@ -1,28 +1,7 @@
 {
-  "name": "@nimblehq/eslint-config-nimble",
-  "version": "2.2.1",
-  "description": "Eslint Config developed and maintained by Nimble",
-  "keywords": [
-    "eslint",
-    "eslint-plugin",
-    "eslintplugin"
-  ],
-  "author": "Nimble",
-  "main": "lib/index.js",
-  "dependencies": {
-    "eslint": "5.6.0"
-  },
-  "license": "MIT",
-  "directories": {
-    "lib": "lib"
-  },
-  "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nimblehq/eslint-config-nimble.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nimblehq/eslint-config-nimble/issues"
-  },
-  "homepage": "https://github.com/nimblehq/eslint-config-nimble#readme"
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
 }
