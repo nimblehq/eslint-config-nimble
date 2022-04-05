@@ -1,6 +1,6 @@
 # @nimblehq/eslint-config-nimble
 
-> ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) developed and maintained by [nimble](https://nimblehq.co/)
+This package provides ESLint base rules
 
 ## Installation
 
@@ -47,8 +47,8 @@ This would require defining the required dependencies in the project itself.
 
 ## License
 
-This project is Copyright (c) 2014-2021 nimble Ltd. It is free software,
-and may be redistributed under the terms specified in the [LICENSE] file.
+This project is Copyright (c) 2014 and onwards.
+It is free software and may be redistributed under the terms specified in the [LICENSE] file.
 
 [LICENSE]: /LICENSE
 
@@ -56,7 +56,7 @@ and may be redistributed under the terms specified in the [LICENSE] file.
 
 ![Nimble](https://assets.nimblehq.co/logo/dark/logo-dark-text-160.png)
 
-This project is maintained and funded by Nimble.
+This project is maintained and funded by [Nimble](https://nimblehq.co).
 
 We love open source and do our part in sharing our work with the community!
 See [our other projects][community] or [hire our team][hire] to help build your product.
