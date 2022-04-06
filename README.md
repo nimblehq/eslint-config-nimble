@@ -7,7 +7,33 @@
 The configurations are separated into dedicated packages:
 - [eslint-config-nimble](/packages/eslint-config-nimble): ESLint base rules
 
-Usage information is in the packages' documentation.
+__Usage information is in the packages' documentation.__
+
+## How to contribute
+
+- This project uses [Lerna](https://lerna.js.org/) to manage packages. Install Lerna for accessing to the lerna CLI.
+
+- To contribute to the existing packages, simply navigate to the `/packages` folder and create a pull request to change them.
+
+### Add a new package
+
+- Use [`lerna create`](https://github.com/lerna/lerna/tree/main/commands/create#readme) command to add a new package.
+
+- The package name should have the following format: `@nimblehq/{package-name}`. This project is shareable configurations for [ESLint](https://eslint.org/), the `{package-name}` should be `eslint-config-nimble-*`:
+
+```bash
+  npx lerna create @nimblehq/eslint-config-nimble-react
+```
+
+### Publish packages
+
+Use [`lerna publish`](https://github.com/lerna/lerna/tree/main/commands/publish#readme) command to publish packages.
+
+```bash
+  npx lerna publish
+```
+
+_The current branch that you run the publish command should be pushed on Github._
 
 ## License
 
