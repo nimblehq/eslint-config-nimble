@@ -22,7 +22,7 @@ __Usage information is in the packages' documentation.__
 - The package name should have the following format: `@nimblehq/{package-name}`. This project is shareable configurations for [ESLint](https://eslint.org/), the `{package-name}` should be `eslint-config-nimble-*`:
 
 ```bash
-  npx lerna create @nimblehq/eslint-config-nimble-react
+  lerna create @nimblehq/eslint-config-nimble-react
 ```
 
 ### Publish packages
@@ -30,7 +30,7 @@ __Usage information is in the packages' documentation.__
 Use [`lerna publish`](https://github.com/lerna/lerna/tree/main/commands/publish#readme) command to publish packages.
 
 ```bash
-  npx lerna publish
+  lerna publish
 ```
 
 _The current branch that you run the publish command should be pushed on Github._
