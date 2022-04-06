@@ -2,6 +2,8 @@
 
 > ESLint [shareable config](http://eslint.org/docs/developer-guide/shareable-configs.html) developed and maintained by [nimble](https://nimblehq.co/)
 
+## Usage
+
 The configurations are separated into dedicated packages:
 - [eslint-config-nimble](/packages/eslint-config-nimble): ESLint base rules
 
