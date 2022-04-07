@@ -1,4 +1,4 @@
-# @nimblehq/eslint-config-nimble
+# `@nimblehq/eslint-config-nimble`
 
 This package provides ESLint base rules
 
