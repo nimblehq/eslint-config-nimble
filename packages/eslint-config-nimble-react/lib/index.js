@@ -6,6 +6,8 @@
 
 module.exports = {
   extends: [
-    '@nimblehq/eslint-config-nimble',
+    './rules/base',
+    './rules/react',
   ].map(require.resolve),
+  rules: {},
 };
