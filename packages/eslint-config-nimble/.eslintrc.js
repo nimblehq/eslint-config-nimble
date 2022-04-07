@@ -1,5 +1,5 @@
 module.exports = {
   extends: [
-    './lib/index.js'
+    './lib/index.js',
   ],
-}
+};
