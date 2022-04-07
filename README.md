@@ -35,6 +35,22 @@ Use [`lerna publish`](https://github.com/lerna/lerna/tree/main/commands/publish#
 
 _The current branch that you run the publish command should be pushed on Github._
 
+### Run commands
+
+This project also uses [workspaces](https://docs.npmjs.com/cli/v8/using-npm/workspaces) feature.
+
+To run a command:
+- Add the command to `scripts` part in `package.json` files.
+- Run the command with `--workspaces/--workspace` parameters:
+
+```bash
+  # Run `lint` on all workspaces:
+  npm run lint --workspaces
+
+  # Run `lint` on `@nimblehq/eslint-config-nimble` workspace:
+  npm run lint --workspace=@nimblehq/eslint-config-nimble
+```
+
 ## License
 
 This project is Copyright (c) 2014 and onwards.
