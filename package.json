@@ -5,5 +5,8 @@
   },
   "workspaces": [
     "./packages/*"
-  ]
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./packages/*"
+  }
 }
