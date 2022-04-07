@@ -5,6 +5,7 @@
 ## Usage
 
 The configurations are separated into dedicated packages:
+
 - [eslint-config-nimble](/packages/eslint-config-nimble): ESLint base rules
 
 __Usage information is in the packages' documentation.__
@@ -40,6 +41,7 @@ _The current branch that you run the publish command should be pushed on Github.
 This project also uses [workspaces](https://docs.npmjs.com/cli/v8/using-npm/workspaces) feature.
 
 To run a command:
+
 - Add the command to `scripts` part in `package.json` files.
 - Run the command with `--workspaces/--workspace` parameters:
 

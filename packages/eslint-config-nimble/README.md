@@ -4,8 +4,8 @@ This package provides ESLint base rules
 
 ## Installation
 
-```
-$ npm install --save-dev @nimblehq/eslint-config-nimble
+```bash
+  npm install --save-dev @nimblehq/eslint-config-nimble
 ```
 
 ## Usage
@@ -28,7 +28,6 @@ Add `@nimblehq/eslint-config-nimble` to the extends section of your `.eslintrc` 
 ### With a framework
 
 Similar to the process above, but usually it requires adding the extra rules for the JS framework:
-
 
 ```js
 {
