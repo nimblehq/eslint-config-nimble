@@ -42,5 +42,8 @@
   },
   "bugs": {
     "url": "https://github.com/nimblehq/eslint-config-nimble/issues"
+  },
+  "dependencies": {
+    "@nimblehq/eslint-config-nimble": "^2.3.0-alpha.0"
   }
 }
