@@ -24,9 +24,9 @@ module.exports = {
   },
   extends: [
     './rules/base',
+    './rules/typescript',
     './rules/import',
     './rules/test',
-    './rules/typescript',
   ].map(require.resolve),
   rules: {},
 };

@@ -2,10 +2,7 @@
 
 module.exports = {
   plugins: ['import'],
-  extends: [
-    'plugin:import/errors',
-    'plugin:import/typescript',
-  ],
+  extends: ['plugin:import/recommended'],
   parser: '@typescript-eslint/parser',
   rules: {
     'import/order': [
