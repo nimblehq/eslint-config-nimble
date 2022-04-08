@@ -7,6 +7,11 @@ jobs:
     name: Run linters
     runs-on: ubuntu-latest
     steps:
+      - name: Cancel previous runs
+        uses: styfle/cancel-workflow-action@0.9.1
+        with:
+          access_token: ${{ github.token }}
+
       - name: Checkout
         uses: actions/checkout@v2
 
