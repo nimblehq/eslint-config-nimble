@@ -16,6 +16,7 @@ module.exports = {
     },
   },
   rules: {
+    // Turn off the 3 following rules based on @typescript-eslint recommendations:
     'no-use-before-define': 'off',
     'no-unused-vars': 'off',
     'no-shadow': 'off',
