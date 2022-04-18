@@ -1,23 +1,23 @@
-# `@nimblehq/eslint-config-nimble`
+# `@nimblehq/eslint-config-nimble-react`
 
-This package provides ESLint base rules
+This package provides ESLint React rules
 
 ## Installation
 
 ```bash
-  npm install --save-dev @nimblehq/eslint-config-nimble
+  npm install --save-dev @nimblehq/eslint-config-nimble-react
 ```
 
 ## Usage
 
 ### Standalone
 
-Add `@nimblehq/eslint-config-nimble` to the extends section of your `.eslintrc` configuration file.
+Add `@nimblehq/eslint-config-nimble-react` to the extends section of your `.eslintrc` configuration file.
 
 ```js
 {
   "extends": [
-      "@nimblehq/eslint-config-nimble"
+      "@nimblehq/eslint-config-nimble-react"
   ],
   "rules": {
     // Additional, per-project rules...
@@ -32,8 +32,7 @@ Similar to the process above, but usually it requires adding the extra rules for
 ```js
 {
   "extends": [
-      "@nimblehq/eslint-config-nimble",
-      "plugin:react/recommended",
+      "@nimblehq/eslint-config-nimble-react",
       "plugin:vue/recommended"
   ],
   "rules": {
