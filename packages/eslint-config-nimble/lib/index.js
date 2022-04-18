@@ -5,25 +5,28 @@
 'use strict';
 
 module.exports = {
-  'parserOptions': {
-    'ecmaVersion': 9,
-    'ecmaFeatures': {
-      'jsx': true,
-      'impliedStrict': true,
+  parserOptions: {
+    ecmaVersion: 9,
+    ecmaFeatures: {
+      jsx: true,
+      impliedStrict: true,
     },
-    'sourceType': 'module',
+    sourceType: 'module',
   },
-  'env': {
-    'es6': true,
-    'node': true,
+  env: {
+    es6: true,
+    node: true,
   },
-  'globals': {
-    'document': false,
-    'navigator': false,
-    'window': false,
+  globals: {
+    document: false,
+    navigator: false,
+    window: false,
   },
   extends: [
     './rules/base',
+    './rules/typescript',
+    './rules/import',
+    './rules/testing',
   ].map(require.resolve),
   rules: {},
 };

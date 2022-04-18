@@ -9,8 +9,14 @@
   ],
   "author": "Nimble",
   "main": "lib/index.js",
-  "devDependencies": {
-    "eslint": "^8.12.0"
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.18.0",
+    "@typescript-eslint/parser": "^5.18.0",
+    "eslint": "^8.12.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
+    "eslint-plugin-cypress": "^2.12.1",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jest": "^26.1.3"
   },
   "peerDependencies": {
     "eslint": "^8.12.0"

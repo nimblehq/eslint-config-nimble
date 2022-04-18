@@ -1,5 +1,5 @@
 module.exports = {
-  'rules': {
+  rules: {
     // enforces a style where it requires to have a getter for every property which has a setter defined
     'accessor-pairs': 'error',
     // enforces a style where it disallows spaces inside array brackets
@@ -11,8 +11,8 @@ module.exports = {
     'arrow-spacing': [
       'error',
       {
-        'before': true,
-        'after': true,
+        before: true,
+        after: true,
       },
     ],
     // enforces a style where it requires one or more spaces inside block definition
@@ -25,14 +25,14 @@ module.exports = {
       'error',
       '1tbs',
       {
-        'allowSingleLine': true,
+        allowSingleLine: true,
       },
     ],
     // enforces camelcase style for property names
-    'camelcase': [
+    camelcase: [
       'error',
       {
-        'properties': 'always',
+        properties: 'always',
       },
     ],
     // enforces the usage of trailing commas for multiline statements
@@ -45,8 +45,8 @@ module.exports = {
     'comma-spacing': [
       'error',
       {
-        'before': false,
-        'after': true,
+        before: false,
+        after: true,
       },
     ],
     // enforces a style where it enforces commas to be placed at the end of the current line
@@ -57,7 +57,7 @@ module.exports = {
     // enforces a style where constructors of derived classes must call super()
     'constructor-super': 'error',
     // enforces a style to never omit curly braces around blocks
-    'curly': [
+    curly: [
       'error',
     ],
     // enforces a style to require the dot to be on the same line as the property
@@ -68,11 +68,11 @@ module.exports = {
     // enforces a style to require at least one newline at the end of non-empty files.
     'eol-last': 'error',
     // enforces a style to require to use type-safe equality operators === and !== instead of their regular counterparts == and !=
-    'eqeqeq': [
+    eqeqeq: [
       'error',
       'always',
       {
-        'null': 'ignore',
+        null: 'ignore',
       },
     ],
     // enforces a style to disallow space between the function name and the opening parenthesis.
@@ -84,8 +84,8 @@ module.exports = {
     'generator-star-spacing': [
       'error',
       {
-        'before': true,
-        'after': true,
+        before: true,
+        after: true,
       },
     ],
     // enforces a style to enforce handling of error, if using the callback pattern in Node.js
@@ -94,27 +94,27 @@ module.exports = {
       '^(err|error)$',
     ],
     // enforces a style to enforce 2-space indentation and 1-space for case clauses in switch statements
-    'indent': [
+    indent: [
       'error',
       2,
       {
-        'SwitchCase': 1,
+        SwitchCase: 1,
       },
     ],
     // enforces a style to require disallow space before colon in object literal properties but require after
     'key-spacing': [
       'error',
       {
-        'beforeColon': false,
-        'afterColon': true,
+        beforeColon: false,
+        afterColon: true,
       },
     ],
     // enforces a style to require spaces around JavaScript Keywords
     'keyword-spacing': [
       'error',
       {
-        'before': true,
-        'after': true,
+        before: true,
+        after: true,
       },
     ],
     // enforces a style to require
@@ -123,8 +123,8 @@ module.exports = {
     'new-cap': [
       'error',
       {
-        'newIsCap': true,
-        'capIsNew': false,
+        newIsCap: true,
+        capIsNew: false,
       },
     ],
     // enforces a style to require parentheses when invoking a constructor with no arguments using the new keyword
@@ -205,7 +205,7 @@ module.exports = {
     'no-mixed-operators': [
       'error',
       {
-        'groups': [
+        groups: [
           [
             '==',
             '!=',
@@ -225,7 +225,7 @@ module.exports = {
             'instanceof',
           ],
         ],
-        'allowSamePrecedence': true,
+        allowSamePrecedence: true,
       },
     ],
     // enforces a style to disallow mixed spaces and tabs for indentation
@@ -238,8 +238,8 @@ module.exports = {
     'no-multiple-empty-lines': [
       'error',
       {
-        'max': 1,
-        'maxEOF': 0,
+        max: 1,
+        maxEOF: 0,
       },
     ],
     // enforces a style to allow Symbol Constructor
@@ -308,7 +308,7 @@ module.exports = {
     'no-unneeded-ternary': [
       'error',
       {
-        'defaultAssignment': false,
+        defaultAssignment: false,
       },
     ],
     // enforces a style to disallow unreachable code after return, throw, continue, and break statements
@@ -321,27 +321,27 @@ module.exports = {
     'no-unused-expressions': [
       'error',
       {
-        'allowShortCircuit': true,
-        'allowTernary': true,
-        'allowTaggedTemplates': true,
+        allowShortCircuit: true,
+        allowTernary: true,
+        allowTaggedTemplates: true,
       },
     ],
     // enforces a style to disallow unused variables
     'no-unused-vars': [
       'error',
       {
-        'vars': 'all',
-        'args': 'none',
-        'ignoreRestSiblings': true,
+        vars: 'all',
+        args: 'none',
+        ignoreRestSiblings: true,
       },
     ],
     // enforces a style to disallow early use of  variables
     'no-use-before-define': [
       'error',
       {
-        'functions': false,
-        'classes': false,
-        'variables': false,
+        functions: false,
+        classes: false,
+        variables: false,
       },
     ],
     // enforces a style to disallow usage of Function.prototype.call() and Function.prototype.apply()
@@ -364,14 +364,14 @@ module.exports = {
     'object-property-newline': [
       'error',
       {
-        'allowMultiplePropertiesPerLine': true,
+        allowMultiplePropertiesPerLine: true,
       },
     ],
     // enforces a style to enforces a newline around variable initializations
     'one-var': [
       'error',
       {
-        'initialized': 'never',
+        initialized: 'never',
       },
     ],
     // enforces a style to enforces linebreaks to be placed after the operator
@@ -379,7 +379,7 @@ module.exports = {
       'error',
       'after',
       {
-        'overrides': {
+        overrides: {
           '?': 'before',
           ':': 'before',
         },
@@ -389,9 +389,9 @@ module.exports = {
     'padded-blocks': [
       'error',
       {
-        'blocks': 'never',
-        'switches': 'never',
-        'classes': 'never',
+        blocks: 'never',
+        switches: 'never',
+        classes: 'never',
       },
     ],
     // enforces a style to ensure that Promises are only rejected with Error objects.
@@ -399,12 +399,22 @@ module.exports = {
     // enforces a style to requires the use of single quotes wherever possible
     //  allows strings to use single-quotes or double-quotes so long as the string contains a quote that would have to be escaped otherwise
     //  allows strings to use backticks
-    'quotes': [
+    quotes: [
       'error',
       'single',
       {
-        'avoidEscape': true,
-        'allowTemplateLiterals': true,
+        avoidEscape: true,
+        allowTemplateLiterals: true,
+      },
+    ],
+    // enforces a style to require or disallow quotes around object literal property names
+    'quote-props': [
+      'error',
+      'as-needed',
+      {
+        keywords: false,
+        unnecessary: true,
+        numbers: false,
       },
     ],
     // enforces a style to disallow whitespace between spread operators and their expressions.
@@ -413,13 +423,13 @@ module.exports = {
       'never',
     ],
     // enforces a style to require semicolons at the end of statements
-    'semi': 'error',
+    semi: 'error',
     // enforces a style to require spacing after semicolons and disallows spacing before semicolons.
     'semi-spacing': [
       'error',
       {
-        'before': false,
-        'after': true,
+        before: false,
+        after: true,
       },
     ],
     // enforces a style to require at least one preceding space.
@@ -445,8 +455,8 @@ module.exports = {
     'space-unary-ops': [
       'error',
       {
-        'words': true,
-        'nonwords': false,
+        words: true,
+        nonwords: false,
       },
     ],
     // enforces a style to require a whitespace (space or tab) beginning a comment
@@ -454,8 +464,8 @@ module.exports = {
       'error',
       'always',
       {
-        'line': {
-          'markers': [
+        line: {
+          markers: [
             '*package',
             '!',
             '/',
@@ -463,9 +473,9 @@ module.exports = {
             '=',
           ],
         },
-        'block': {
-          'balanced': true,
-          'markers': [
+        block: {
+          balanced: true,
+          markers: [
             '*package',
             '!',
             ',',
@@ -473,7 +483,7 @@ module.exports = {
             '::',
             'flow-include',
           ],
-          'exceptions': [
+          exceptions: [
             '*',
           ],
         },
@@ -502,7 +512,7 @@ module.exports = {
     'valid-typeof': [
       'error',
       {
-        'requireStringLiterals': true,
+        requireStringLiterals: true,
       },
     ],
     // enforces a style to require all immediately-invoked function expressions to be wrapped in parentheses.
@@ -511,7 +521,7 @@ module.exports = {
       'error',
       'any',
       {
-        'functionPrototypeMethods': true,
+        functionPrototypeMethods: true,
       },
     ],
     // enforces a style to enforce spacing around the * in yield* expressions
@@ -520,7 +530,7 @@ module.exports = {
       'both',
     ],
     // enforces a style to disallow Yoda Conditions
-    'yoda': [
+    yoda: [
       'error',
       'never',
     ],
