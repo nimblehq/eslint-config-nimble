@@ -1,9 +1,13 @@
 {
-  "name": "root",
+  "name": "eslint-config-nimble",
+  "private": true,
   "devDependencies": {
     "lerna": "^4.0.0"
   },
   "workspaces": [
     "./packages/*"
-  ]
+  ],
+  "scripts": {
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./packages/*"
+  }
 }
