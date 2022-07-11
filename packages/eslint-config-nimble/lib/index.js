@@ -27,6 +27,7 @@ module.exports = {
     './rules/typescript',
     './rules/import',
     './rules/testing',
+    './rules/prettier',
   ].map(require.resolve),
   rules: {},
 };

@@ -3,10 +3,7 @@ module.exports = {
     // enforces a style where it requires to have a getter for every property which has a setter defined
     'accessor-pairs': 'error',
     // enforces a style where it disallows spaces inside array brackets
-    'array-bracket-spacing': [
-      'error',
-      'never',
-    ],
+    'array-bracket-spacing': ['error', 'never'],
     // enforces a style where it requires to a space before/after an arrow function’s arrow(=>)
     'arrow-spacing': [
       'error',
@@ -16,10 +13,7 @@ module.exports = {
       },
     ],
     // enforces a style where it requires one or more spaces inside block definition
-    'block-spacing': [
-      'error',
-      'always',
-    ],
+    'block-spacing': ['error', 'always'],
     // enforces consistent brace style for blocks
     'brace-style': [
       'error',
@@ -37,10 +31,7 @@ module.exports = {
     ],
     // enforces the usage of trailing commas for multiline statements
     // enforces no trailing commas for singleline statements
-    'comma-dangle': [
-      'error',
-      'always-multiline',
-    ],
+    'comma-dangle': ['error', 'always-multiline'],
     // enforces a style where it enforces no space before comma but requires a space after comma
     'comma-spacing': [
       'error',
@@ -50,21 +41,13 @@ module.exports = {
       },
     ],
     // enforces a style where it enforces commas to be placed at the end of the current line
-    'comma-style': [
-      'error',
-      'last',
-    ],
+    'comma-style': ['error', 'last'],
     // enforces a style where constructors of derived classes must call super()
     'constructor-super': 'error',
     // enforces a style to never omit curly braces around blocks
-    curly: [
-      'error',
-    ],
+    curly: ['error'],
     // enforces a style to require the dot to be on the same line as the property
-    'dot-location': [
-      'error',
-      'property',
-    ],
+    'dot-location': ['error', 'property'],
     // enforces a style to require at least one newline at the end of non-empty files.
     'eol-last': 'error',
     // enforces a style to require to use type-safe equality operators === and !== instead of their regular counterparts == and !=
@@ -76,10 +59,7 @@ module.exports = {
       },
     ],
     // enforces a style to disallow space between the function name and the opening parenthesis.
-    'func-call-spacing': [
-      'error',
-      'never',
-    ],
+    'func-call-spacing': ['error', 'never'],
     // enforces a style to enforce spacing around the * of generator functions.
     'generator-star-spacing': [
       'error',
@@ -89,10 +69,7 @@ module.exports = {
       },
     ],
     // enforces a style to enforce handling of error, if using the callback pattern in Node.js
-    'handle-callback-err': [
-      'error',
-      '^(err|error)$',
-    ],
+    'handle-callback-err': ['error', '^(err|error)$'],
     // enforces a style to enforce 2-space indentation and 1-space for case clauses in switch statements
     indent: [
       'error',
@@ -170,10 +147,7 @@ module.exports = {
     // enforces a style to disallow unnecessary boolean casts
     'no-extra-boolean-cast': 'error',
     // enforces a style to disallow unnecessary parentheses only around function expressions
-    'no-extra-parens': [
-      'error',
-      'functions',
-    ],
+    'no-extra-parens': ['error', 'functions'],
     // enforces a style to disallow fallthrough scenarios in switch statement
     'no-fallthrough': 'error',
     // enforces a style to disallow floating decimals
@@ -185,10 +159,7 @@ module.exports = {
     // enforces a style to disallow implied eval() through the use of setTimeout(), setInterval() or execScript()
     'no-implied-eval': 'error',
     // enforces a style to disallow variable or function declarations in nested blocks
-    'no-inner-declarations': [
-      'error',
-      'functions',
-    ],
+    'no-inner-declarations': ['error', 'functions'],
     // enforces a style to disallow invalid regular expression strings in RegExp constructors
     'no-invalid-regexp': 'error',
     // enforces a style to disallow irregular whitespace
@@ -206,24 +177,9 @@ module.exports = {
       'error',
       {
         groups: [
-          [
-            '==',
-            '!=',
-            '===',
-            '!==',
-            '>',
-            '>=',
-            '<',
-            '<=',
-          ],
-          [
-            '&&',
-            '||',
-          ],
-          [
-            'in',
-            'instanceof',
-          ],
+          ['==', '!=', '===', '!==', '>', '>=', '<', '<='],
+          ['&&', '||'],
+          ['in', 'instanceof'],
         ],
         allowSamePrecedence: true,
       },
@@ -269,10 +225,7 @@ module.exports = {
     // enforces a style to disallow multiple spaces in regular expression literals
     'no-regex-spaces': 'error',
     // enforces a style to disallow assignment in return statement
-    'no-return-assign': [
-      'error',
-      'except-parens',
-    ],
+    'no-return-assign': ['error', 'except-parens'],
     // enforces a style to disallow unnecessary return await
     'no-return-await': 'error',
     // enforces a style to disallow self assignments
@@ -418,10 +371,7 @@ module.exports = {
       },
     ],
     // enforces a style to disallow whitespace between spread operators and their expressions.
-    'rest-spread-spacing': [
-      'error',
-      'never',
-    ],
+    'rest-spread-spacing': ['error', 'never'],
     // enforces a style to require semicolons at the end of statements
     semi: 'error',
     // enforces a style to require spacing after semicolons and disallows spacing before semicolons.
@@ -433,20 +383,11 @@ module.exports = {
       },
     ],
     // enforces a style to require at least one preceding space.
-    'space-before-blocks': [
-      'error',
-      'always',
-    ],
+    'space-before-blocks': ['error', 'always'],
     // enforces a style to requires a space followed by the ( of arguments.
-    'space-before-function-paren': [
-      'error',
-      'never',
-    ],
+    'space-before-function-paren': ['error', 'never'],
     // enforces a style to disallow any spaces inside of parentheses
-    'space-in-parens': [
-      'error',
-      'never',
-    ],
+    'space-in-parens': ['error', 'never'],
     // enforces a style to require spaces around infix operators.
     'space-infix-ops': 'error',
     // enforces a style to
@@ -465,47 +406,23 @@ module.exports = {
       'always',
       {
         line: {
-          markers: [
-            '*package',
-            '!',
-            '/',
-            ',',
-            '=',
-          ],
+          markers: ['*package', '!', '/', ',', '='],
         },
         block: {
           balanced: true,
-          markers: [
-            '*package',
-            '!',
-            ',',
-            ':',
-            '::',
-            'flow-include',
-          ],
-          exceptions: [
-            '*',
-          ],
+          markers: ['*package', '!', ',', ':', '::', 'flow-include'],
+          exceptions: ['*'],
         },
       },
     ],
     // enforces a style to require a description when creating symbols.
     'symbol-description': 'error',
     // enforces a style to disallow spaces inside of the curly brace pair.
-    'template-curly-spacing': [
-      'error',
-      'never',
-    ],
+    'template-curly-spacing': ['error', 'never'],
     // enforces a style to disallow spaces between a tag function and its template literal.
-    'template-tag-spacing': [
-      'error',
-      'never',
-    ],
+    'template-tag-spacing': ['error', 'never'],
     // enforces a style to require that files must not begin with the Unicode BOM
-    'unicode-bom': [
-      'error',
-      'never',
-    ],
+    'unicode-bom': ['error', 'never'],
     // enforces a style to require calls to isNaN() when checking for NaN
     'use-isnan': 'error',
     // enforces a style to enforce comparing typeof expressions against valid strings
@@ -525,14 +442,8 @@ module.exports = {
       },
     ],
     // enforces a style to enforce spacing around the * in yield* expressions
-    'yield-star-spacing': [
-      'error',
-      'both',
-    ],
+    'yield-star-spacing': ['error', 'both'],
     // enforces a style to disallow Yoda Conditions
-    yoda: [
-      'error',
-      'never',
-    ],
+    yoda: ['error', 'never'],
   },
 };
