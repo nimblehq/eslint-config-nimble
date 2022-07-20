@@ -10,6 +10,7 @@ module.exports = {
     './rules/jsx-a11y',
     './rules/react',
     './rules/testing',
+    './rules/prettier', // prettiter must be the last one
   ].map(require.resolve),
   rules: {},
 };
