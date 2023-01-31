@@ -6,8 +6,8 @@
 
 The configurations are separated into dedicated packages:
 
-- [eslint-config-nimble](/packages/eslint-config-nimble-core): ESLint core base rules
-- [eslint-config-nimble](/packages/eslint-config-nimble-testing): ESLint testing base rules
+- [eslint-config-nimble-core](/packages/eslint-config-nimble-core): ESLint core base rules
+- [eslint-config-nimble-testing](/packages/eslint-config-nimble-testing): ESLint testing base rules
 - [eslint-config-nimble-react](/packages/eslint-config-nimble-react): ESLint rules for React
 
 __Usage information is in the packages' documentation.__
