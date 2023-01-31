@@ -3,6 +3,7 @@
 This package provides ESLint testing rules inheriting from @nimblehq/eslint-config-nimble-core.
 
 ## Caution
+
 @nimblehq/eslint-config-nimble-core includes `jest` and `cypress` as the primary test suite stack. Consider if the targeting project is not using those libraries.
 
 ## Installation
@@ -49,7 +50,7 @@ This would require defining the required dependencies in the project itself.
 
 ## License
 
-This project is Copyright (c) 2014 and onwards Nimble. It is free software and may be redistributed under the terms specified in the [LICENSE] file.
+This project is Copyright (c) 2021 and onwards Nimble. It is free software and may be redistributed under the terms specified in the [LICENSE] file.
 
 [LICENSE]: /LICENSE
 
