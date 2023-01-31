@@ -1,4 +1,4 @@
-# `@nimblehq/eslint-config-nimble-testing`
+# `@nimblehq/eslint-config-nimble-core`
 
 This package provides ESLint base rules
 
