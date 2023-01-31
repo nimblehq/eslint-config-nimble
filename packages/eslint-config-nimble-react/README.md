@@ -25,6 +25,20 @@ Add `@nimblehq/eslint-config-nimble-react` to the extends section of your `.esli
 }
 ```
 
+If the targeting project is using `jest` and `cypress`, add `@nimblehq/eslint-config-nimble-testing` as the following extension
+
+```js
+{
+  "extends": [
+      "@nimblehq/eslint-config-nimble-react",
+      "@nimblehq/eslint-config-nimble-testing"
+  ],
+  "rules": {
+    // Additional, per-project rules...
+  }
+}
+```
+
 ### With a framework
 
 Similar to the process above, but usually it requires adding the extra rules for the JS framework:
@@ -33,6 +47,7 @@ Similar to the process above, but usually it requires adding the extra rules for
 {
   "extends": [
       "@nimblehq/eslint-config-nimble-react",
+      "@nimblehq/eslint-config-nimble-testing",
       "plugin:vue/recommended"
   ],
   "rules": {
