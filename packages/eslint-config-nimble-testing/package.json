@@ -40,5 +40,11 @@
   "bugs": {
     "url": "https://github.com/nimblehq/eslint-config-nimble/issues"
   },
-  "homepage": "https://github.com/nimblehq/eslint-config-nimble"
+  "homepage": "https://github.com/nimblehq/eslint-config-nimble",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

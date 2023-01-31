@@ -1,23 +1,26 @@
-# `@nimblehq/eslint-config-nimble`
+# `@nimblehq/eslint-config-nimble-testing`
 
-This package provides ESLint base rules
+This package provides ESLint testing rules inheriting from @nimblehq/eslint-config-nimble-core.
+
+## Caution
+@nimblehq/eslint-config-nimble-core includes `jest` and `cypress` as the primary test suite stack. Consider if the targeting project is not using those libraries.
 
 ## Installation
 
 ```bash
-  npm install --save-dev @nimblehq/eslint-config-nimble
+  npm install --save-dev @nimblehq/eslint-config-nimble-testing
 ```
 
 ## Usage
 
 ### Standalone
 
-Add `@nimblehq/eslint-config-nimble` to the extends section of your `.eslintrc` configuration file.
+Add `@nimblehq/eslint-config-nimble-testing` to the extends section of your `.eslintrc` configuration file.
 
 ```js
 {
   "extends": [
-      "@nimblehq/eslint-config-nimble"
+      "@nimblehq/eslint-config-nimble-testing"
   ],
   "rules": {
     // Additional, per-project rules...
@@ -32,7 +35,7 @@ Similar to the process above, but usually it requires adding the extra rules for
 ```js
 {
   "extends": [
-      "@nimblehq/eslint-config-nimble",
+      "@nimblehq/eslint-config-nimble-testing",
       "plugin:react/recommended",
       "plugin:vue/recommended"
   ],
