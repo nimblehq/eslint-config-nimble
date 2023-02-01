@@ -4,7 +4,7 @@ This package provides ESLint testing rules inheriting from @nimblehq/eslint-conf
 
 ## Caution
 
-@nimblehq/eslint-config-nimble-core includes `jest` and `cypress` as the primary test suite stack. Consider if the targeting project is not using those libraries.
+@nimblehq/eslint-config-nimble-testing includes `jest` and `cypress` as the primary test suite stack. Consider if the targeting project is not using those libraries.
 
 ## Installation
 
