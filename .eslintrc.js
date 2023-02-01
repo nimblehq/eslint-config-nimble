@@ -1,5 +1,3 @@
 module.exports = {
-  extends: [
-    './packages/eslint-config-nimble/lib/index.js'
-  ],
-}
+  extends: './packages/eslint-config-nimble-core/lib/index.js',
+};

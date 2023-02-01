@@ -26,7 +26,6 @@ module.exports = {
     './rules/base',
     './rules/typescript',
     './rules/import',
-    './rules/testing',
     './rules/prettier', // prettiter must be the last one
   ].map(require.resolve),
   rules: {},
