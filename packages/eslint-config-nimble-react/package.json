@@ -1,6 +1,6 @@
 {
   "name": "@nimblehq/eslint-config-nimble-react",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ESLint React configuration developed and maintained by Nimble",
   "keywords": [
     "eslint",
