@@ -7,7 +7,7 @@ module.exports = {
     node: true,
     jest: true,
   },
-  extends: ['@nimblehq/eslint-config-nimble'],
+  extends: '@nimblehq/eslint-config-nimble-core',
   parserOptions: {
     ecmaVersion: 6,
     sourceType: 'module',
