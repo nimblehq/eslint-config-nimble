@@ -1,6 +1,6 @@
 {
   "name": "@nimblehq/eslint-config-nimble-testing",
-  "version": "2.4.0",
+  "version": "1.2.0",
   "description": "ESLint testing plugin extension configuration developed and maintained by Nimble",
   "keywords": [
     "eslint",
@@ -31,7 +31,7 @@
     "lib": "lib"
   },
   "engines": {
-    "node": "^16 || ^17 || ^18"
+    "node": ">=18"
   },
   "repository": {
     "type": "git",
