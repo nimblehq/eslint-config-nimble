@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  plugins: ['jest', 'cypress'],
+  plugins: ['jest'],
   overrides: [
     {
       files: 'src/**/*.test.[jt]s?(x)',
@@ -9,10 +9,6 @@ module.exports = {
       env: {
         jest: true,
       },
-    },
-    {
-      files: 'cypress/**/*.[jt]s',
-      extends: ['plugin:cypress/recommended'],
     },
   ],
 };
