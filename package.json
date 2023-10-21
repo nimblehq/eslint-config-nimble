@@ -8,6 +8,7 @@
     "./packages/*"
   ],
   "scripts": {
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./packages/*"
+    "lint": "npm run lint --workspaces",
+    "lint:fix": "npm run lint:fix --workspaces"
   }
 }

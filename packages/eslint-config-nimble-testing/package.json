@@ -1,6 +1,6 @@
 {
   "name": "@nimblehq/eslint-config-nimble-testing",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ESLint testing plugin extension configuration developed and maintained by Nimble",
   "keywords": [
     "eslint",
@@ -13,14 +13,12 @@
   "author": "Nimble",
   "main": "lib/index.js",
   "dependencies": {
-    "@nimblehq/eslint-config-nimble-core": "^2.6.0",
-    "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-prettier": "^4.2.1"
-  },
-  "peerDependencies": {
-    "eslint": "^8.12.0",
-    "eslint-plugin-cypress": "^2.12.1",
-    "eslint-plugin-jest": "^27.2.1"
+    "@nimblehq/eslint-config-nimble-core": "^2.7.0",
+    "eslint": "^8.51.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-jest": "^27.4.2",
+    "eslint-plugin-prettier": "^5.0.1"
   },
   "scripts": {
     "lint": "eslint .",
@@ -31,7 +29,7 @@
     "lib": "lib"
   },
   "engines": {
-    "node": "^16 || ^17 || ^18"
+    "node": "^14.18.2 || >=18"
   },
   "repository": {
     "type": "git",
