@@ -31,9 +31,9 @@ jobs:
           scope: "@nimblehq"
 
       - name: Install dependencies
-        run: npm ci && npx lerna bootstrap --ci
+        run: npm ci
 
       - name: Publish packages to npmjs
-        run: npx lerna publish from-package --yes --no-verify-access
+        run: npx lerna publish from-package
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
