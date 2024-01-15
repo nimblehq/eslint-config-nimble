@@ -1,5 +1,5 @@
 /**
- * @fileoverview eslint testing config
+ * @fileoverview eslint typescript config
  * @author Nimble
  */
 'use strict';

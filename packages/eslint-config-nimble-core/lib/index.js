@@ -1,6 +1,6 @@
 /**
  * @fileoverview eslint config
- * @author Nimbl3
+ * @author Nimble
  */
 'use strict';
 
