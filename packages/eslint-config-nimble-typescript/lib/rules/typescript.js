@@ -16,4 +16,9 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     '@typescript-eslint/no-use-before-define': ['error'],
   },
+  env: {
+    browser: true,
+    commonjs: true,
+    es2021: true,
+  },
 };
