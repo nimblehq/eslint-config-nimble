@@ -13,8 +13,8 @@
   "author": "Nimble",
   "main": "lib/index.js",
   "dependencies": {
-    "@nimblehq/eslint-config-nimble-core": "^2.8.0",
-    "@nimblehq/eslint-config-nimble-typescript": "^1.0.0",
+    "@nimblehq/eslint-config-nimble-core": "2.8.0",
+    "@nimblehq/eslint-config-nimble-typescript": "1.0.0",
     "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.28.1",
