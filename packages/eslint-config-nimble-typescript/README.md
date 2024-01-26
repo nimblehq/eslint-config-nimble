@@ -32,7 +32,7 @@ Similar to the process above, but usually it requires adding the extra rules for
 ```js
 {
   "extends": [
-      "@nimblehq/eslint-config-nimble-testing",
+      "@nimblehq/eslint-config-nimble-typescript",
       "plugin:react/recommended",
       "plugin:vue/recommended"
   ],
