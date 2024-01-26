@@ -1,6 +1,6 @@
 # `@nimblehq/eslint-config-nimble-typescript`
 
-This package provides ESLint typescript rules inheriting from @nimblehq/eslint-config-nimble-core.
+This package provides ESLint Typescript rules inheriting from @nimblehq/eslint-config-nimble-core.
 
 ## Installation
 
