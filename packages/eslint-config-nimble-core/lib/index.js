@@ -1,6 +1,6 @@
 /**
  * @fileoverview eslint config
- * @author Nimbl3
+ * @author Nimble
  */
 'use strict';
 
@@ -24,7 +24,6 @@ module.exports = {
   },
   extends: [
     './rules/base',
-    './rules/typescript',
     './rules/import',
     './rules/prettier', // prettiter must be the last one
   ].map(require.resolve),
