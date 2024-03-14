@@ -3,7 +3,6 @@
 module.exports = {
   plugins: ['import'],
   extends: ['plugin:import/recommended'],
-  parser: '@typescript-eslint/parser',
   rules: {
     'import/order': [
       'error',
@@ -40,14 +39,5 @@ module.exports = {
         spec: 'always',
       },
     ],
-  },
-  settings: {
-    'import/resolver': {
-      typescript: {},
-      node: {
-        extensions: ['.js', '.jsx', '.ts', '.tsx'],
-        moduleDirectory: ['node_modules', 'src/'],
-      },
-    },
   },
 };
