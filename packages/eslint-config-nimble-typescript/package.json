@@ -1,6 +1,6 @@
 {
   "name": "@nimblehq/eslint-config-nimble-typescript",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "ESLint config for TypeScript projects by Nimble",
   "keywords": [
     "eslint",
