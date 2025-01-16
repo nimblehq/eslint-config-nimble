@@ -2,7 +2,7 @@
   "name": "eslint-config-nimble",
   "private": true,
   "devDependencies": {
-    "lerna": "^7.4.1"
+    "lerna": "^8.1.9"
   },
   "workspaces": [
     "./packages/*"

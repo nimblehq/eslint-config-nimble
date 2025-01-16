@@ -1,6 +1,6 @@
 {
   "name": "@nimblehq/eslint-config-nimble-react",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "ESLint React configuration developed and maintained by Nimble",
   "keywords": [
     "eslint",
@@ -16,15 +16,15 @@
     "lib": "lib"
   },
   "engines": {
-    "node": "^14.18.2 || >=18"
+    "node": ">=22"
   },
   "files": [
     "lib"
   ],
   "dependencies": {
-    "@nimblehq/eslint-config-nimble-core": "2.8.0",
-    "@nimblehq/eslint-config-nimble-typescript": "1.0.0",
-    "eslint": "^8.51.0",
+    "@nimblehq/eslint-config-nimble-core": "2.8.2",
+    "@nimblehq/eslint-config-nimble-typescript": "1.0.2",
+    "eslint": "^8.57.1",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-jsx-a11y": "^6.7.1",
     "eslint-plugin-prettier": "^5.0.1",
