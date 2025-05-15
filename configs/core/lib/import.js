@@ -1,9 +1,13 @@
 'use strict';
 
-module.exports = {
-  plugins: ['import'],
-  extends: ['plugin:import/recommended'],
+import importPlugin from 'eslint-plugin-import';
+
+export default {
+  plugins: {
+    'import': importPlugin,
+  },
   rules: {
+    ...importPlugin.configs.recommended.rules,
     'import/order': [
       'error',
       {

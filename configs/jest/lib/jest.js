@@ -1,11 +1,11 @@
 'use strict';
 
 module.exports = {
-  plugins: ['testing-library'],
+  plugins: ['jest'],
   overrides: [
     {
       files: 'src/**/*.test.[jt]s?(x)',
-      extends: ['plugin:testing-library/react'],
+      extends: ['plugin:jest/recommended', 'plugin:jest/style'],
       env: {
         jest: true,
       },

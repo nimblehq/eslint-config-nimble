@@ -1,14 +1,19 @@
 'use strict';
 
-module.exports = {
-  plugins: ['@typescript-eslint'],
-  extends: ['plugin:@typescript-eslint/recommended'],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
-    ecmaFeatures: {
-      jsx: true,
+import typescriptPlugin from '@typescript-eslint/eslint-plugin';
+
+export default {
+  plugins: {
+    '@typescript-eslint': typescriptPlugin,
+  },
+  languageOptions: {
+    parser: '@typescript-eslint/parser',
+    parserOptions: {
+      ecmaVersion: 6,
+      sourceType: 'module',
+      ecmaFeatures: {
+        jsx: true,
+      },
     },
   },
   rules: {

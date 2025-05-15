@@ -1,10 +1,10 @@
-module.exports = {
+export default {
   rules: {
     // enforces a style where it requires to have a getter for every property which has a setter defined
     'accessor-pairs': 'error',
     // enforces a style where it disallows spaces inside array brackets
     'array-bracket-spacing': ['error', 'never'],
-    // enforces a style where it requires to a space before/after an arrow function’s arrow(=>)
+    // enforces a style where it requires to a space before/after an arrow function's arrow(=>)
     'arrow-spacing': [
       'error',
       {
@@ -236,7 +236,7 @@ module.exports = {
     'no-sequences': 'error',
     // enforces a style to disallow shadowing of restricted names
     'no-shadow-restricted-names': 'error',
-    // enforces a style to disallow sparse array literals which have “holes” where commas are not preceded by elements.
+    // enforces a style to disallow sparse array literals which have "holes" where commas are not preceded by elements.
     // It does not apply to a trailing comma following the last element.
     'no-sparse-arrays': 'error',
     // enforces a style to disallow all tabs
@@ -249,85 +249,57 @@ module.exports = {
     'no-throw-literal': 'error',
     // enforces a style to disallow trailing whitespace at the end of lines
     'no-trailing-spaces': 'error',
-    // enforces a style to disallow undeclared variables
+    // enforces a style to disallow the use of undeclared variables unless mentioned in a /*global */ block
     'no-undef': 'error',
-    // enforces a style to disallow initializing to undefined
-    'no-undef-init': 'error',
-    // enforces a style to disallow confusing multiline expressions
-    'no-unexpected-multiline': 'error',
-    // enforces a style to disallow unmodified conditions of loops
-    'no-unmodified-loop-condition': 'error',
-    // enforces a style to disallow ternary operators when simpler alternatives exist
-    'no-unneeded-ternary': [
-      'error',
-      {
-        defaultAssignment: false,
-      },
-    ],
-    // enforces a style to disallow unreachable code after return, throw, continue, and break statements
-    'no-unreachable': 'error',
-    // enforces a style to disallow control flow statements in finally blocks
-    'no-unsafe-finally': 'error',
-    // enforces a style to disallow disallow negating the left operand of relational operators
-    'no-unsafe-negation': 'error',
-    // enforces a style to disallow unused expressions
-    'no-unused-expressions': [
-      'error',
-      {
-        allowShortCircuit: true,
-        allowTernary: true,
-        allowTaggedTemplates: true,
-      },
-    ],
-    // enforces a style to disallow unused variables
-    'no-unused-vars': [
-      'error',
-      {
-        vars: 'all',
-        args: 'none',
-        ignoreRestSiblings: true,
-      },
-    ],
-    // enforces a style to disallow early use of  variables
-    'no-use-before-define': [
-      'error',
-      {
-        functions: false,
-        classes: false,
-        variables: false,
-      },
-    ],
-    // enforces a style to disallow usage of Function.prototype.call() and Function.prototype.apply()
-    'no-useless-call': 'error',
-    // enforces a style to disallow unnecessary computed property keys on objects
-    'no-useless-computed-key': 'error',
-    // enforces a style to disallow unnecessary constructor
-    'no-useless-constructor': 'error',
-    // enforces a style to disallow unnecessary escape usage
-    'no-useless-escape': 'error',
-    // enforces a style to disallow renaming import, export, and destructured assignments to the same name
-    'no-useless-rename': 'error',
-    // enforces a style to disallow redundant return statements
-    'no-useless-return': 'error',
-    // enforces a style to disallow whitespace around the dot or before the opening bracket before properties of objects if they are on the same line
-    'no-whitespace-before-property': 'error',
-    // enforces a style to disallow with statements
+    // enforces a style to disallow the use of undefined as an identifier
+    'no-undefined': 'error',
+    // enforces a style to disallow the use of the void operator
+    'no-void': 'error',
+    // enforces a style to disallow the use of with statements
     'no-with': 'error',
-    // enforces a style to allow placing object properties on separate lines
+    // enforces a style to require or disallow spacing inside object literal braces
+    'object-curly-spacing': ['error', 'always'],
+    // enforces a style to require or disallow spacing inside computed properties
     'object-property-newline': [
       'error',
       {
         allowMultiplePropertiesPerLine: true,
       },
     ],
-    // enforces a style to enforces a newline around variable initializations
+    // enforces a style to require or disallow spacing inside computed properties
+    'object-curly-newline': [
+      'error',
+      {
+        ObjectExpression: {
+          multiline: true,
+          consistent: true,
+        },
+        ObjectPattern: {
+          multiline: true,
+          consistent: true,
+        },
+      },
+    ],
+    // enforces a style to require or disallow spacing inside computed properties
+    'object-shorthand': [
+      'error',
+      'always',
+      {
+        avoidQuotes: true,
+      },
+    ],
+    // enforces a style to require or disallow spacing inside computed properties
     'one-var': [
       'error',
       {
         initialized: 'never',
       },
     ],
-    // enforces a style to enforces linebreaks to be placed after the operator
+    // enforces a style to require or disallow spacing inside computed properties
+    'one-var-declaration-per-line': ['error', 'always'],
+    // enforces a style to require or disallow spacing inside computed properties
+    'operator-assignment': ['error', 'always'],
+    // enforces a style to require or disallow spacing inside computed properties
     'operator-linebreak': [
       'error',
       'after',
@@ -338,29 +310,32 @@ module.exports = {
         },
       },
     ],
-    // enforces a style to disallow empty lines at the beginning and ending of block statements and classes
-    'padded-blocks': [
+    // enforces a style to require or disallow spacing inside computed properties
+    'padded-blocks': ['error', 'never'],
+    // enforces a style to require or disallow spacing inside computed properties
+    'prefer-arrow-callback': 'error',
+    // enforces a style to require or disallow spacing inside computed properties
+    'prefer-const': 'error',
+    // enforces a style to require or disallow spacing inside computed properties
+    'prefer-destructuring': [
       'error',
       {
-        blocks: 'never',
-        switches: 'never',
-        classes: 'never',
+        array: true,
+        object: true,
       },
-    ],
-    // enforces a style to ensure that Promises are only rejected with Error objects.
-    'prefer-promise-reject-errors': 'error',
-    // enforces a style to requires the use of single quotes wherever possible
-    //  allows strings to use single-quotes or double-quotes so long as the string contains a quote that would have to be escaped otherwise
-    //  allows strings to use backticks
-    quotes: [
-      'error',
-      'single',
       {
-        avoidEscape: true,
-        allowTemplateLiterals: true,
+        enforceForRenamedProperties: false,
       },
     ],
-    // enforces a style to require or disallow quotes around object literal property names
+    // enforces a style to require or disallow spacing inside computed properties
+    'prefer-numeric-literals': 'error',
+    // enforces a style to require or disallow spacing inside computed properties
+    'prefer-rest-params': 'error',
+    // enforces a style to require or disallow spacing inside computed properties
+    'prefer-spread': 'error',
+    // enforces a style to require or disallow spacing inside computed properties
+    'prefer-template': 'error',
+    // enforces a style to require or disallow spacing inside computed properties
     'quote-props': [
       'error',
       'as-needed',
@@ -370,11 +345,20 @@ module.exports = {
         numbers: false,
       },
     ],
-    // enforces a style to disallow whitespace between spread operators and their expressions.
+    // enforces a style to require or disallow spacing inside computed properties
+    quotes: [
+      'error',
+      'single',
+      {
+        avoidEscape: true,
+        allowTemplateLiterals: true,
+      },
+    ],
+    // enforces a style to require or disallow spacing inside computed properties
     'rest-spread-spacing': ['error', 'never'],
-    // enforces a style to require semicolons at the end of statements
-    semi: 'error',
-    // enforces a style to require spacing after semicolons and disallows spacing before semicolons.
+    // enforces a style to require or disallow spacing inside computed properties
+    semi: ['error', 'always'],
+    // enforces a style to require or disallow spacing inside computed properties
     'semi-spacing': [
       'error',
       {
@@ -382,17 +366,24 @@ module.exports = {
         after: true,
       },
     ],
-    // enforces a style to require at least one preceding space.
+    // enforces a style to require or disallow spacing inside computed properties
+    'semi-style': ['error', 'last'],
+    // enforces a style to require or disallow spacing inside computed properties
     'space-before-blocks': ['error', 'always'],
-    // enforces a style to requires a space followed by the ( of arguments.
-    'space-before-function-paren': ['error', 'never'],
-    // enforces a style to disallow any spaces inside of parentheses
+    // enforces a style to require or disallow spacing inside computed properties
+    'space-before-function-paren': [
+      'error',
+      {
+        anonymous: 'always',
+        named: 'never',
+        asyncArrow: 'always',
+      },
+    ],
+    // enforces a style to require or disallow spacing inside computed properties
     'space-in-parens': ['error', 'never'],
-    // enforces a style to require spaces around infix operators.
+    // enforces a style to require or disallow spacing inside computed properties
     'space-infix-ops': 'error',
-    // enforces a style to
-    //    require spaces around unary word operators such as: new, delete, typeof, void, yield
-    //    disallow spaces around unary operators such as: -, +, --, ++, !, !!
+    // enforces a style to require or disallow spacing inside computed properties
     'space-unary-ops': [
       'error',
       {
@@ -400,50 +391,48 @@ module.exports = {
         nonwords: false,
       },
     ],
-    // enforces a style to require a whitespace (space or tab) beginning a comment
+    // enforces a style to require or disallow spacing inside computed properties
     'spaced-comment': [
       'error',
       'always',
       {
         line: {
-          markers: ['*package', '!', '/', ',', '='],
+          markers: ['/'],
+          exceptions: ['-', '+'],
         },
         block: {
-          balanced: true,
-          markers: ['*package', '!', ',', ':', '::', 'flow-include'],
+          markers: ['!'],
           exceptions: ['*'],
+          balanced: true,
         },
       },
     ],
-    // enforces a style to require a description when creating symbols.
+    // enforces a style to require or disallow spacing inside computed properties
     'symbol-description': 'error',
-    // enforces a style to disallow spaces inside of the curly brace pair.
+    // enforces a style to require or disallow spacing inside computed properties
     'template-curly-spacing': ['error', 'never'],
-    // enforces a style to disallow spaces between a tag function and its template literal.
+    // enforces a style to require or disallow spacing inside computed properties
     'template-tag-spacing': ['error', 'never'],
-    // enforces a style to require that files must not begin with the Unicode BOM
+    // enforces a style to require or disallow spacing inside computed properties
     'unicode-bom': ['error', 'never'],
-    // enforces a style to require calls to isNaN() when checking for NaN
+    // enforces a style to require or disallow spacing inside computed properties
     'use-isnan': 'error',
-    // enforces a style to enforce comparing typeof expressions against valid strings
-    'valid-typeof': [
+    // enforces a style to require or disallow spacing inside computed properties
+    'valid-jsdoc': [
       'error',
       {
-        requireStringLiterals: true,
+        requireReturn: false,
+        requireReturnType: false,
+        requireParamType: false,
       },
     ],
-    // enforces a style to require all immediately-invoked function expressions to be wrapped in parentheses.
-    //    additionally enforces wrapping function expressions invoked using .call and .apply.
-    'wrap-iife': [
-      'error',
-      'any',
-      {
-        functionPrototypeMethods: true,
-      },
-    ],
-    // enforces a style to enforce spacing around the * in yield* expressions
+    // enforces a style to require or disallow spacing inside computed properties
+    'valid-typeof': 'error',
+    // enforces a style to require or disallow spacing inside computed properties
+    'wrap-iife': ['error', 'outside'],
+    // enforces a style to require or disallow spacing inside computed properties
+    'wrap-regex': 'error',
+    // enforces a style to require or disallow spacing inside computed properties
     'yield-star-spacing': ['error', 'both'],
-    // enforces a style to disallow Yoda Conditions
-    yoda: ['error', 'never'],
   },
 };
